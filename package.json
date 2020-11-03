@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress run",
-    "cy:open": "cypress open"
+    "cy:open": "cypress open",
+    "cy:custom-parameters": "./node_modules/.bin/cypress-tags run -e TAGS='@custom-parameters'"
   },
   "author": "Lukasz Gandecki",
   "license": "ISC",
